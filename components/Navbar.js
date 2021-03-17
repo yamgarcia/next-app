@@ -12,7 +12,6 @@ export default function Navbar(){
                         <button className="btn-logo">FEED</button>
                     </Link>
                 </li>
-
                 {}
                 {username && (
                     <>
