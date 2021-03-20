@@ -8,12 +8,12 @@ export default function Enter(props) {
 
   const {user, username } = useContext(UserContext)
 
-  return(
-  <main>
-   {user ? 
-        !username ? <UsernameForm /> : <SignOutButton /> : <SignInButton />
-      }
-  </main>
+  return (
+    <main>
+    {user ? 
+          !username ? <UsernameForm /> : <SignOutButton /> : <SignInButton />
+        }
+    </main>
   )
 }
 
@@ -31,9 +31,11 @@ function SignInButton(){
 }
 
 function SignOutButton(){
-  return <button onClick={() => auth.signOut()}> Sign Out </button>
+  return (
+    <button onClick={() => auth.signOut()}> Sign Out </button>
+  )
 }
 
 function UsernameForm(){
-
+  return null;
 }
