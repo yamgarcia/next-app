@@ -20,6 +20,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-// https://console.firebase.google.com/u/0/project/marcosnextfireblog/settings/general/web:MDcxMTI4ZmMtZjczYS00YWM0LThmNDItZTI2NDlhZDlmNTY5
-
 export default MyApp;

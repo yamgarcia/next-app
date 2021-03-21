@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       {/* <Loader show /> */}
-      <button onClick={() => toast.success("Hello toast")}> Toast </button>c
+      <button onClick={() => toast.success("Hello toast")}> Toast </button>
     </>
   );
 }
