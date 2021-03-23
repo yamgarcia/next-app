@@ -78,9 +78,7 @@ function UsernameForm() {
       setIsValid(false);
     }
   };
-
-  //
-
+  
   useEffect(() => {
     checkUsername(formValue);
   }, [formValue]);
@@ -110,7 +108,6 @@ function UsernameForm() {
           <button type="submit" className="btn-green" disabled={!isValid}>
             Choose
           </button>
-
           <h3>Debug State</h3>
           <div>
             Username: {formValue}
