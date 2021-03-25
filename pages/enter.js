@@ -63,7 +63,7 @@ function UsernameForm() {
   const onChange = (e) => {
     // Force form value typed in form to match correct format
     const val = e.target.value.toLowerCase();
-    const re = /^(?=[a-zA-Z0-9._]{3,15}$)(?!.*[_.]{2})[^_.].*[^_.]$/;
+    const regex = /^(?=[a-zA-Z0-9._]{3,15}$)(?!.*[_.]{2})[^_.].*[^_.]$/;
 
     // Only set form value if length is < 3 OR it passes regex
     if (val.length < 3) {
@@ -72,7 +72,7 @@ function UsernameForm() {
       setIsValid(false);
     }
 
-    if (re.test(val)) {
+    if (regex.test(val)) {
       setFormValue(val);
       setLoading(true);
       setIsValid(false);

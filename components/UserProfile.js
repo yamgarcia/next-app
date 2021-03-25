@@ -5,6 +5,7 @@ export default function UserProfile ({user}){
             <p>
                 <i>@{user.username}</i>
             </p>
+            
             <h1>{user.displayName}</h1>
 
         </div>
