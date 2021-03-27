@@ -1,8 +1,8 @@
-import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import Link from "next/link";
+// import Head from "next/head";
+// import styles from "../styles/Home.module.css";
+// import Link from "next/link";
 import Loader from "../components/Loader.js";
-import toast from "react-hot-toast";
+// import toast from "react-hot-toast";
 import PostFeed from "../components/PostFeed";
 import { firestore, fromMillis, postToJSON } from "../lib/firebase";
 
